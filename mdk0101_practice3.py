@@ -32,8 +32,7 @@ car = Car("ГАЗ-24-10", 330, 440)
 car.set_model("Supra-mk4")
 
 
-print(car.get_model())  # выведет "Bob"
-
+print(car.get_model())
 
 class Car:
     def __init__(self, model, horsepower, torque):
